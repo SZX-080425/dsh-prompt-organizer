@@ -64,7 +64,7 @@ DeepSeek Harness 插件。它不替你写代码，它负责在你和代码之间
 **方式二：命令行**
 
 ```bash
-git clone https://github.com/<you>/dsh-prompt-organizer.git
+git clone https://github.com/SZX-080425/dsh-prompt-organizer.git
 dsh plugin --profile desktop add "link:/absolute/path/to/dsh-prompt-organizer"
 ```
 

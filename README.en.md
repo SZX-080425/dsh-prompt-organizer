@@ -62,7 +62,7 @@ messy notes ──① brief──② web research──③ interview──④ co
 **CLI**
 
 ```bash
-git clone https://github.com/<you>/dsh-prompt-organizer.git
+git clone https://github.com/SZX-080425/dsh-prompt-organizer.git
 dsh plugin --profile desktop add "link:/absolute/path/to/dsh-prompt-organizer"
 ```
 
