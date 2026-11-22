@@ -1,0 +1,18 @@
+# ============================================================================
+# dsh-prompt-organizer — DSH bundle patch
+# ============================================================================
+# Mounts the Host plugin that registers:
+#   - skill        : prompt-organizer
+#   - tools        : prompt_organizer_brief, prompt_organizer_compose
+#   - prompt text  : a short routing hint for messy requirements
+#
+# `name` must match the installed package name exactly.
+# ============================================================================
+
+- insert:
+    - id: prompt-organizer
+      name: dsh-prompt-organizer
+      config:
+        promptSection: true
+        interview: true
+        research: true

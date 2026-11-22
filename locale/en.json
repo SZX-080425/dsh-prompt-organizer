@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Prompt organizer",
+    "description": "Turns fragmented, contradictory project notes into a structured brief: researches the web, asks the decisive questions, then writes a paste-ready prompt or a project plan — and can hand that plan straight to the agent to build.",
+    "detail": "docs/DETAIL.md"
+  }
+}

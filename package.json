@@ -1,0 +1,45 @@
+{
+  "name": "dsh-prompt-organizer",
+  "version": "0.1.0",
+  "description": "Prompt Organizer for DeepSeek Harness: turn rough, fragmented notes into a wired-up brief, research it on the web, ask the decisive questions, and emit a paste-ready prompt, a project plan, or a direct build handoff.",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/core.test.mjs test/plugin.test.mjs"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skill",
+    "locale",
+    "docs",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "prompt-engineering",
+    "prompt-organizer",
+    "requirements",
+    "coding-agent"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
